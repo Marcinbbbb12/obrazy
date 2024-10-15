@@ -1,0 +1,22 @@
+.gallery {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(4,400px);
+}
+.card {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+}
+
+.image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
